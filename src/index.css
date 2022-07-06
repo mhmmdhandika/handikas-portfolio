@@ -4,17 +4,66 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .initial-section {
+    @apply w-full my-14;
+  }
+  .child-section {
+    @apply max-w-default p-6 mx-auto xl:p-0;
+  }
+}
+
 * {
   font-family: 'Montserrat', sans serif;
+  -webkit-tap-highlight-color: transparent;
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Start Navbar */
+.hamburger-line {
+  @apply w-[30px] h-[2px] my-2 block bg-slate-900;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+#hamburger > span:nth-child(1) {
+  @apply origin-top-left;
 }
+
+#hamburger > span:nth-child(3) {
+  @apply origin-bottom-left;
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45;
+}
+
+.nav-items:hover {
+  @apply bg-slate-700 text-white font-semibold rounded-xl;
+}
+
+.nav-items:nth-child(3):hover {
+  @apply px-3;
+}
+
+.navbar-fixed {
+  @apply fixed top-0 z-[9999] bg-opacity-80;
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+}
+/* End Navbar */
+
+/* Start Hero */
+.socmed-icons {
+  @apply mt-9 mx-1 p-2 text-2xl text-slate-600 border-4 border-slate-200 rounded-full transition duration-300;
+}
+
+.socmed-icons:hover {
+  @apply border-slate-600 bg-slate-600 text-white;
+}
+/* End Hero */
