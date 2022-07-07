@@ -35,9 +35,6 @@ export default function Navbar() {
           ref={navMenu}>
           <ul className='block md:flex md:justify-end'>
             <li className='nav-items py-2 md:px-3'>
-              <a href='#about'>About</a>
-            </li>
-            <li className='nav-items py-2 md:px-3'>
               <a href='#projects'>Projects</a>
             </li>
             <li className='nav-items py-2 md:pl-3'>

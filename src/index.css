@@ -43,11 +43,15 @@
   @apply -rotate-45;
 }
 
+.nav-items {
+  @apply transition duration-300 rounded-xl;
+}
+
 .nav-items:hover {
   @apply bg-slate-700 text-white font-semibold rounded-xl;
 }
 
-.nav-items:nth-child(3):hover {
+.nav-items:last-child:hover {
   @apply px-3;
 }
 

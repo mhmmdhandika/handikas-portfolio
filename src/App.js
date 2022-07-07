@@ -1,9 +1,10 @@
 import Navbar from './Navbar';
 import Hero from './Hero';
-// import About from './About';
 import Projects from './Projects';
-// import Contact from './Contact';
+import Contact from './Contact';
 // import Footer from './Footer';
+
+// TODO: Create a Contact Field
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <Projects />
+      <Contact />
     </div>
   );
 }
