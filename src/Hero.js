@@ -20,7 +20,7 @@ export default function Hero() {
           </p>
           <ul className='flex'>
             {socmedData.map((socmed, index) => {
-              const { name, url, logoName } = socmed;
+              const { url } = socmed;
               const logo = [<AiOutlineGithub />, <AiFillLinkedin />, <FaQuora />, <AiOutlineInstagram />];
 
               return (

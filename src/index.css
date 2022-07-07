@@ -11,6 +11,10 @@
   .child-section {
     @apply max-w-default p-6 mx-auto xl:p-0;
   }
+
+  .title-section {
+    @apply mb-6 font-bold text-4xl text-primary;
+  }
 }
 
 * {

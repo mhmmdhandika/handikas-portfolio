@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <section id='projects' className='initial-section mb-16'>
       <div className='child-section'>
-        <h1 className='mb-6 font-bold text-4xl text-primary'>My Projects</h1>
+        <h2 className='title-section'>My Projects</h2>
         <div className='grid gap-5 sm:grid-cols-2'>
           {projectsData.map((project, index) => {
             const { name, image, description, repository, published } = project;
