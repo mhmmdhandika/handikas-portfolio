@@ -4,7 +4,7 @@ import myImg from './assets/img/my-vector.jpg';
 
 export default function Hero() {
   return (
-    <header className='initial-section mt-36 mb-40'>
+    <header className='initial-section mt-40 mb-44'>
       <div className='max-w-default p-6 mx-auto xl:p-0 md:flex md:justify-between md:items-start lg:items-center'>
         <div className='sm:w-10/12 md:w-3/5'>
           <h4>Hello there! I am</h4>

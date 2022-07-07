@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Calculator",
+    "image": "https://drive.google.com/uc?export=view&id=1XRnu6s6OsF-9kFIZ8k963fNF-NF75U9o",
+    "description": "This calculator can do like a normally calculator. This calculator I create for understanding about basic of JavaScript.",
+    "repository": "https://github.com/mhmmdhandika/calculator-hndk",
+    "published": "https://mhmmdhandika.github.io/calculator-hndk/"
+  },
+  {
+    "name": "Bookshelf",
+    "image": "https://drive.google.com/uc?export=view&id=1eI2CsKQYqwbEuj9IlCe_A8RhU2zoa82r",
+    "description": "You can create a new book to shelf, move to unread or already read and remove it. This project is piece of Dicoding submission.",
+    "repository": "https://github.com/mhmmdhandika/bookshelf-hndk",
+    "published": "https://mhmmdhandika.github.io/bookshelf-hndk/"
+  },
+  {
+    "name": "Simbox Search Movie",
+    "image": "https://drive.google.com/uc?export=view&id=16WmTu0l_EPHH6DF4nufw-To0AyrbwzUY",
+    "description": "Simbox is application that can search anything of movies that you like. This project used OMDB API and based on JavaScript Lanjutan by Web Programming UNPAS, but I decided to improve some features and UI.",
+    "repository": "https://github.com/mhmmdhandika/simple-box-movies",
+    "published": ""
+  },
+  {
+    "name": "Quiz",
+    "image": "https://drive.google.com/uc?export=view&id=1BB19-4V_k5pr4YmgidhxD8Lhk30TBa7y",
+    "description": "This Quiz is contain the Trivia that I got from The Trivia API. Btw, This is My first React Js Project hehehe.",
+    "repository": "https://github.com/mhmmdhandika/quiz-app",
+    "published": ""
+  }
+]

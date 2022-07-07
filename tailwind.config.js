@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
-        default: '1000px',
+        default: '800px',
+        default2XL: '1200px',
+      },
+      colors: {
+        primary: '#1e293b',
       },
     },
   },

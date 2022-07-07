@@ -21,7 +21,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className='fixed top-0 p-6 w-full' ref={navBar}>
+    <nav className='fixed top-0 p-6 w-full transition' ref={navBar}>
       <div className='relative flex justify-between items-center max-w-default mx-auto'>
         <h1 className='text-xl text-slate-700 font-semibold'>@mhmdhandikao</h1>
         <button id='hamburger' className='block md:hidden' ref={hamburger} onClick={handleHamburger}>
