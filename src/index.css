@@ -5,10 +5,15 @@
 @tailwind utilities;
 
 h1 {
-  color: rgba(255, 255, 255, 0.699);
+  color: rgba(0, 0, 0, 0.616);
 }
 
 @layer base {
+  body {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.12345) 1.4px, transparent 1.4px);
+    background-size: 25px 25px;
+  }
+
   label {
     @apply mb-1;
   }
@@ -22,7 +27,7 @@ h1 {
   }
 
   footer {
-    @apply bg-slate-800 text-white;
+    @apply bg-slate-800 bg-fixed text-white;
     background-image: radial-gradient(rgba(255, 255, 255, 0.222) 1.4px, transparent 1.4px);
     background-size: 25px 25px;
   }
