@@ -1,3 +1,5 @@
+import { createContext } from 'react';
+import sectionList from './assets/section-list.json';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Projects from './Projects';
@@ -6,16 +8,18 @@ import Skills from './Skills';
 // import Footer from './Footer';
 
 // TODO: Create a Contact Field
+const SectionContext = createContext(null);
 
 function App() {
   return (
-    <div>
+    <SectionContext.Provider value={sectionList}>
       <Navbar />
       <Hero />
       <Projects />
       <Skills />
-    </div>
+    </SectionContext.Provider>
   );
 }
 
 export default App;
+export { SectionContext };

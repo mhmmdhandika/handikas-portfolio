@@ -1,5 +1,7 @@
 import skillsData from './assets/skills.json';
 
+// TODO: ADD SKILLS LINK IN NAVBARl
+
 export default function Skills() {
   return (
     <section id='skills' className='initial-section '>
@@ -8,8 +10,11 @@ export default function Skills() {
         <ul className='grid gap-4 grid-cols-3 content-center md:gap-5 lg:grid-cols-4 xl:grid-cols-5'>
           {skillsData.map((skill, index) => {
             return (
-              <li className='group p-4 border-2 border-slate-300 transition ease-in hover:border-transparent hover:shadow-lg' key={index}>
-                <img src={skill.logo} alt={skill.name} className='group-hover:drop-shadow-xl' />
+              <li className='group relative p-6 border-2 border-slate-300 transition ease-in hover:border-[3px] hover:shadow-lg hover:-translate-y-2' key={index}>
+                <img src={skill.logo} alt={skill.name} />
+                <div className='opacity-0 transition duration-500 group-hover:block absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-fit backdrop-blur-sm group-hover:opacity-100 group-hover:top-1/2 group-hover:-translate-y-1/2 group-hover:bg-slate-200 group-hover:bg-opacity-70 text-center'>
+                  <h4 className='font-semibold text-slate-700 transition duration-1000'>{skill.name}</h4>
+                </div>
               </li>
             );
           })}

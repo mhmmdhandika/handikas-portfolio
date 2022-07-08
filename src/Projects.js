@@ -1,20 +1,28 @@
+import { useContext } from 'react';
+import { SectionContext } from './App';
 import projectsData from './assets/projects.json';
 import { AdvReadMoreMore } from 'read-more-more';
 
 export default function Projects() {
+  const thisSection = useContext(SectionContext).filter(section => {
+    return section.name === 'Projects';
+  })[0];
+
+  console.log(thisSection);
+
   return (
-    <section id='projects' className='initial-section mb-16'>
+    <section id={thisSection.url} className='initial-section mb-16'>
       <div className='child-section'>
-        <h2 className='title-section'>My Projects</h2>
+        <h2 className='title-section'>{`My ${thisSection.name}`}</h2>
         <div className='grid gap-5 sm:grid-cols-2'>
           {projectsData.map((project, index) => {
             const { name, image, description, repository, published } = project;
 
             return (
-              <div className='p-6 rounded-2xl bg-gray-200 transition hover:shadow-xl hover:-translate-y-2' key={index}>
+              <div className='p-6 rounded-2xl border-[6px] border-slate-200 bg-gray-200 transition duration-500 hover:shadow-xl hover:border-slate-100' key={index}>
                 <img src={image} alt={`${name}'s screenshoot`} className='mb-4 border rounded-lg' />
                 <h3 className='mb-4 mt-6 font-semibold text-primary text-2xl'>{name}</h3>
-                <p className='mb-4 text-sm text-primary'>{description.length >= 130 ? <AdvReadMoreMore text={description} linesToShow={2} checkFor={50} btnStyles={{ color: '#6b7280' }} /> : description}</p>
+                <div className='mb-4 text-sm text-primary'>{description.length >= 95 ? <AdvReadMoreMore text={description} linesToShow={2} checkFor={50} btnStyles={{ color: '#6b7280' }} /> : description}</div>
                 {published === '' ? (
                   <button className='block mb-4 text-sm text-slate-500 underline cursor-not-allowed' disabled>
                     Not yet published

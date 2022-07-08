@@ -6,9 +6,9 @@ import socmedData from './assets/socmed.json';
 export default function Hero() {
   return (
     <header className='initial-section mt-40 mb-44'>
-      <div className='max-w-default p-6 mx-auto xl:p-0 md:flex md:justify-between md:items-start lg:items-center'>
+      <div className='child-section p-6 mx-auto xl:p-0 md:flex md:justify-between md:items-start lg:items-center'>
         <div className='sm:w-10/12 md:w-3/5'>
-          <h4>Hello there! I am</h4>
+          <h4>Hello there👋 I am</h4>
           <h1 className='mt-2 mb-3 text-6xl text-slate-800 font-bold'>
             Muhamad <br />
             Handika S.
