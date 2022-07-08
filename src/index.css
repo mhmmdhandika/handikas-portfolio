@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+  color: rgba(255, 255, 255, 0.699);
+}
+
 @layer base {
   label {
     @apply mb-1;
@@ -15,6 +19,12 @@
 
   textarea {
     @apply p-1 border-2 border-slate-300 w-full outline-none focus:border-slate-400;
+  }
+
+  footer {
+    @apply bg-slate-800 text-white;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.222) 1.4px, transparent 1.4px);
+    background-size: 25px 25px;
   }
 }
 
