@@ -4,9 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  label {
+    @apply mb-1;
+  }
+
+  input {
+    @apply p-1 border-2 border-slate-300 w-full outline-none focus:border-slate-400;
+  }
+
+  textarea {
+    @apply p-1 border-2 border-slate-300 w-full outline-none focus:border-slate-400;
+  }
+}
+
 @layer components {
   .initial-section {
-    @apply w-full my-20;
+    @apply w-full my-36;
   }
   .child-section {
     @apply max-w-default p-6 mx-auto xl:p-0;
@@ -14,6 +28,10 @@
 
   .title-section {
     @apply mb-6 font-bold text-4xl text-primary;
+  }
+
+  .btn {
+    @apply px-3 py-1 bg-primary border-4 border-primary rounded-xl transition duration-300 hover:bg-transparent;
   }
 }
 

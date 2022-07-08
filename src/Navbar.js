@@ -39,7 +39,7 @@ export default function Navbar() {
             {sectionList.map((section, index) => {
               return (
                 <li className={`my-2 flex items-center pb-2 md:pb-0 md:border-none ${index === sectionList.length - 1 ? '' : 'border-b border-slate-300'}`} key={index}>
-                  <a href={`#${section.url}`} className={`nav-items w-full px-5 py-2 md:px-3 ${index === sectionList.length - 1 ? 'md:pr-0' : ''}`}>
+                  <a href={`#${section.href}`} className={`nav-items w-full px-5 py-2 md:px-3 ${index === sectionList.length - 1 ? 'md:pr-0' : ''}`}>
                     {section.name}
                   </a>
                 </li>

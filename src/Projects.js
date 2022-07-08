@@ -4,14 +4,12 @@ import projectsData from './assets/projects.json';
 import { AdvReadMoreMore } from 'read-more-more';
 
 export default function Projects() {
-  const thisSection = useContext(SectionContext).filter(section => {
-    return section.name === 'Projects';
+  const thisSection = useContext(SectionContext).filter((section, index) => {
+    return index === 1;
   })[0];
 
-  console.log(thisSection);
-
   return (
-    <section id={thisSection.url} className='initial-section mb-16'>
+    <section id={thisSection.href} className='initial-section mb-16'>
       <div className='child-section'>
         <h2 className='title-section'>{`My ${thisSection.name}`}</h2>
         <div className='grid gap-5 sm:grid-cols-2'>
@@ -19,7 +17,7 @@ export default function Projects() {
             const { name, image, description, repository, published } = project;
 
             return (
-              <div className='p-6 rounded-2xl border-[6px] border-slate-200 bg-gray-200 transition duration-500 hover:shadow-xl hover:border-slate-100' key={index}>
+              <div className='p-6 rounded-2xl border-[6px] border-slate-200 bg-gray-200 transition duration-500  hover:shadow-xl hover:border-slate-100' key={index}>
                 <img src={image} alt={`${name}'s screenshoot`} className='mb-4 border rounded-lg' />
                 <h3 className='mb-4 mt-6 font-semibold text-primary text-2xl'>{name}</h3>
                 <div className='mb-4 text-sm text-primary'>{description.length >= 95 ? <AdvReadMoreMore text={description} linesToShow={2} checkFor={50} btnStyles={{ color: '#6b7280' }} /> : description}</div>
@@ -32,7 +30,7 @@ export default function Projects() {
                     Website published
                   </a>
                 )}
-                <button className='group px-3 py-1 bg-primary border-4 border-primary rounded-xl transition duration-300 hover:bg-transparent'>
+                <button className='btn group'>
                   <a href={repository} target='blank' className='font-semibold text-sm text-white group-hover:text-primary'>
                     Go to repository
                   </a>

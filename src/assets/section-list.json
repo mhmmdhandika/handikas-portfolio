@@ -1,14 +1,18 @@
 [
   {
+    "name": "Home",
+    "href": "home"
+  },
+  {
     "name": "Projects",
-    "url": "projects"
+    "href": "projects"
   },
   {
     "name": "Skills",
-    "url": "skills"
+    "href": "skills"
   },
   {
     "name": "Contact",
-    "url": "skills"
+    "href": "contact"
   }
 ]
