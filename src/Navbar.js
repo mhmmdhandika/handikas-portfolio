@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <nav className='fixed top-0 w-full transition duration-500' ref={navBar}>
       <div className='child-section py-6 relative flex justify-between items-center max-w-default mx-auto'>
-        <h1 className='text-xl text-slate-700 font-semibold'>@mhmdhandikao</h1>
+        <h1 className='text-xl text-slate-700 font-semibold'>@mhmdhandika</h1>
         <button id='hamburger' className='block md:hidden' ref={hamburger} onClick={handleHamburger}>
           <span className='hamburger-line transition duration-300 ease-in-out'></span>
           <span className='hamburger-line transition duration-300 ease-in-out'></span>
