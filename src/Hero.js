@@ -11,7 +11,7 @@ export default function Hero() {
   })[0];
 
   return (
-    <header id={thisSection.href} className='initial-section mt-36 mb-44 md:mt-40'>
+    <header id={thisSection.href} className='initial-section mb-44 md:mt-44'>
       <div className='child-section p-6 mx-auto xl:p-0 md:flex md:justify-between md:items-start lg:items-center'>
         <div className='sm:w-10/12 md:w-3/5'>
           <h4>Hello there👋 I am</h4>

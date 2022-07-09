@@ -2,7 +2,7 @@
   "name": "handikas-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mhmdhandika.github.io",
+  "homepage": "https://mhmmdhandika.github.io/handikas-portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

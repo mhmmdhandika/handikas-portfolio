@@ -9,7 +9,7 @@ export default function Projects() {
   })[0];
 
   return (
-    <section id={thisSection.href} className='initial-section mb-16'>
+    <section id={thisSection.href} className='initial-section mt-60 mb-16'>
       <div className='child-section'>
         <h2 className='title-section'>{`My ${thisSection.name}`}</h2>
         <div className='grid gap-5 sm:grid-cols-2'>
