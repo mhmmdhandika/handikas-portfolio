@@ -1,16 +1,27 @@
 import { useContext } from 'react';
 import { SectionContext } from './App';
+import swal from 'sweetalert';
 
 export default function Contact() {
   const thisSection = useContext(SectionContext).filter((section, index) => {
     return index === 3;
   })[0];
 
+  const handleForm = e => {
+    e.preventDefault();
+    swal({
+      title: 'Hold on guys!',
+      text: 'The contact section is under development.\nInstead, you can contact me on my Instagram.',
+      icon: 'info',
+      button: 'I got it!',
+    });
+  };
+
   return (
     <section id={thisSection.href} className='initial-section'>
       <div className='child-section'>
-        <h2 className='title-section'>{thisSection.name}</h2>
-        <form className='py-6 sm:border-dashed sm:border-slate-300 sm:border-4 sm:p-10 lg:px-16'>
+        <h2 className='title-section'>{thisSection.name} me</h2>
+        <form className='py-6 sm:border-dashed sm:bg-white sm:border-slate-300 sm:border-4 sm:p-10 lg:px-16' onClick={handleForm}>
           <div>
             <label htmlFor='name' className='block'>
               Your name
@@ -30,9 +41,11 @@ export default function Contact() {
             </label>
             <textarea name='message' id='message' cols='30' rows='4' className='block'></textarea>
           </div>
-          <button type='submit' className='mt-4 py-2 px-4 btn text-white font-semibold hover:text-slate-800'>
-            Submit
-          </button>
+          <div className='flex justify-end'>
+            <button type='submit' className='mt-4 py-2 px-4 btn text-white font-semibold hover:text-slate-800' onClick={handleForm}>
+              Submit
+            </button>
+          </div>
         </form>
       </div>
     </section>

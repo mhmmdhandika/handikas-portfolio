@@ -111,3 +111,13 @@ h1 {
   @apply border-slate-600 bg-slate-600 text-white;
 }
 /* End Hero */
+
+/*Start Swal*/
+.swal-overlay {
+  @apply backdrop-blur-sm;
+}
+
+.swal-text {
+  @apply text-center;
+}
+/*End Swal*/
