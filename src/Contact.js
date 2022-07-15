@@ -10,27 +10,27 @@ export default function Contact() {
     <section id={thisSection.href} className='initial-section'>
       <div className='child-section'>
         <h2 className='title-section'>{thisSection.name}</h2>
-        <form className='py-6 grid gap-x-4 gap-y-2 md:grid-cols-2 lg:grid-row-3 lg:content-between'>
-          <div className='lg:row-start-1'>
+        <form className='py-6 sm:border-dashed sm:border-slate-300 sm:border-4 sm:p-10 lg:px-16'>
+          <div>
             <label htmlFor='name' className='block'>
               Your name
             </label>
             <input type='text' name='name' id='name' className='block' />
           </div>
-          <div className='lg: w-full lg:row-start-2 lg:place-self-end'>
+          <div className='mt-2'>
             <label htmlFor='email' className='block'>
               Email
             </label>
             <input type='email' name='email' id='email' className='block peer invalid:border-pink-400 invalid:mb-1' />
             <p className='hidden peer-invalid:block text-pink-600 text-sm mb-2'>Please provide a valid email address.</p>
           </div>
-          <div className='md:col-span-2 lg:col-start-2 lg:row-span-2 lg:col-span-1'>
+          <div className='mt-2'>
             <label htmlFor='message' className='block'>
               Message
             </label>
             <textarea name='message' id='message' cols='30' rows='4' className='block'></textarea>
           </div>
-          <button type='submit' className='mt-4 py-2 px-4 btn text-white font-semibold place-self-end hover:text-slate-800 md:col-start-2 md:block md:mt-1'>
+          <button type='submit' className='mt-4 py-2 px-4 btn text-white font-semibold hover:text-slate-800'>
             Submit
           </button>
         </form>
