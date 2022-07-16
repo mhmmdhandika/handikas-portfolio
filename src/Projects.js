@@ -17,7 +17,7 @@ export default function Projects() {
             const { name, image, description, repository, published } = project;
 
             return (
-              <div className='p-6 rounded-2xl border-4 border-slate-600 bg-gray-200 transition duration-500  hover:shadow-xl hover:scale-105' key={index}>
+              <div className='p-6 rounded-2xl border-4 border-slate-600 bg-slate-100 transition duration-500  hover:shadow-xl hover:scale-105' key={index}>
                 <img src={image} alt={`${name}'s screenshoot`} className='mb-4 rounded-lg' />
                 <h3 className='mb-4 mt-6 font-semibold text-primary-light text-2xl'>{name}</h3>
                 <div className='mb-4 text-sm text-primary-light'>{description.length >= 95 ? <AdvReadMoreMore text={description} linesToShow={2} checkFor={50} color='#1e293b' btnStyles={{ color: '#6b7280' }} /> : description}</div>

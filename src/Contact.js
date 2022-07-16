@@ -21,7 +21,7 @@ export default function Contact() {
     <section id={thisSection.href} className='initial-section'>
       <div className='child-section'>
         <h2 className='title-section'>{thisSection.name} me</h2>
-        <form className='py-6 sm:border-dashed sm:bg-white sm:border-slate-300 sm:border-4 sm:p-10 lg:px-16' onClick={handleForm}>
+        <form className='py-6 text-primary-light sm:border-dashed sm:bg-white sm:border-slate-300 sm:border-4 sm:p-10 lg:px-16' onClick={handleForm}>
           <div>
             <label htmlFor='name' className='block'>
               Your name
@@ -42,7 +42,7 @@ export default function Contact() {
             <textarea name='message' id='message' cols='30' rows='4' className='block'></textarea>
           </div>
           <div className='flex justify-end'>
-            <button type='submit' className='mt-4 py-2 px-4 btn text-white font-semibold hover:text-slate-800' onClick={handleForm}>
+            <button type='submit' className='mt-4 py-2 px-4 btn text-white font-semibold hover:text-primary-light' onClick={handleForm}>
               Submit
             </button>
           </div>
