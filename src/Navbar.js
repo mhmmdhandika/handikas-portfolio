@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <nav className='fixed top-0 w-full transition duration-500' ref={navBar}>
       <div className='child-section py-6 relative flex justify-between items-center max-w-default mx-auto'>
-        <h1 className='text-xl text-slate-700 font-semibold'>@mhmdhandika</h1>
+        <h1 className='text-xl text-secondary-light font-semibold'>@mhmdhandika</h1>
         <button id='hamburger' className='block md:hidden' ref={hamburger} onClick={handleHamburger}>
           <span className='hamburger-line transition duration-300 ease-in-out'></span>
           <span className='hamburger-line transition duration-300 ease-in-out'></span>
@@ -35,7 +35,7 @@ export default function Navbar() {
           id='nav-menu'
           className='hidden absolute p-4 text-center bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full md:block md:static md:p-0 md:bg-transparent md:max-w-full md:shadow-none md:rounded-none'
           ref={navMenu}>
-          <ul className='block md:flex md:justify-end'>
+          <ul className='block text-primary-light md:flex md:justify-end'>
             {sectionList.map((section, index) => {
               return (
                 <li className={`my-2 flex items-center pb-2 md:pb-0 md:border-none ${index === sectionList.length - 1 ? '' : 'border-b border-slate-300'}`} key={index}>

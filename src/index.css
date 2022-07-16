@@ -42,11 +42,11 @@ h1 {
   }
 
   .title-section {
-    @apply mb-6 font-bold text-4xl text-primary;
+    @apply mb-6 font-bold text-4xl text-secondary-light;
   }
 
   .btn {
-    @apply px-3 py-1 bg-primary border-4 border-primary rounded-xl transition duration-300 hover:bg-transparent;
+    @apply px-3 py-1 bg-primary-light border-4 border-primary-light rounded-xl transition duration-300 hover:bg-transparent;
   }
 }
 

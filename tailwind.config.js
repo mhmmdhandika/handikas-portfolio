@@ -7,7 +7,8 @@ module.exports = {
         default: '900px',
       },
       colors: {
-        primary: '#1e293b',
+        'primary-light': '#1e293b',
+        'secondary-light': '#334155',
       },
     },
   },
