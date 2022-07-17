@@ -1,5 +1,5 @@
 import { useRef, useContext } from 'react';
-import { SectionContext } from './App';
+import { SectionContext } from '../App';
 
 export default function Navbar() {
   const sectionList = useContext(SectionContext);

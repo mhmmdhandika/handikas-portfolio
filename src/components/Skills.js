@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import { SectionContext } from './App';
-import skillsData from './assets/skills.json';
+import { SectionContext } from '../App';
+import skillsData from '../assets/json/skills.json';
 
 export default function Skills() {
   // FIXME: Refactor this function

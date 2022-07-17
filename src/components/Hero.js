@@ -1,9 +1,9 @@
 import { useContext } from 'react';
-import { SectionContext } from './App';
+import { SectionContext } from '../App';
 import { AiOutlineGithub, AiOutlineInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { FaQuora } from 'react-icons/fa';
-import myImg from './assets/img/my-vector.jpg';
-import socmedData from './assets/socmed.json';
+import myImg from '../assets/img/my-vector.jpg';
+import socmedData from '../assets/json/socmed.json';
 
 export default function Hero() {
   const thisSection = useContext(SectionContext).filter((section, index) => {

@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { SectionContext } from './App';
+import { SectionContext } from '../App';
 import swal from 'sweetalert';
 
 export default function Contact() {
