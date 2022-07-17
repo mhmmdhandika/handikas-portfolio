@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/handikas-portfolio/static/css/main.71040e13.css",
-    "main.js": "/handikas-portfolio/static/js/main.a844ef97.js",
+    "main.js": "/handikas-portfolio/static/js/main.4b20c933.js",
     "static/js/787.74822702.chunk.js": "/handikas-portfolio/static/js/787.74822702.chunk.js",
     "static/media/my-vector.jpg": "/handikas-portfolio/static/media/my-vector.c5f5f63c09e8c6f3dc84.jpg",
     "index.html": "/handikas-portfolio/index.html",
     "main.71040e13.css.map": "/handikas-portfolio/static/css/main.71040e13.css.map",
-    "main.a844ef97.js.map": "/handikas-portfolio/static/js/main.a844ef97.js.map",
+    "main.4b20c933.js.map": "/handikas-portfolio/static/js/main.4b20c933.js.map",
     "787.74822702.chunk.js.map": "/handikas-portfolio/static/js/787.74822702.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71040e13.css",
-    "static/js/main.a844ef97.js"
+    "static/js/main.4b20c933.js"
   ]
 }
