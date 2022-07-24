@@ -6,3 +6,4 @@
 4. [React icons](https://react-icons.github.io/react-icons/)
 5. [Read More More](https://www.npmjs.com/package/read-more-more)
 6. [Sweet Alert](https://sweetalert.js.org/)
+7. [Submit to Google Sheets by Jamie Wilson](https://github.com/jamiewilson/form-to-google-sheets)

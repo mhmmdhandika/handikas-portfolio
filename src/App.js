@@ -7,7 +7,6 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-// TODO: Create a Contact Field
 const SectionContext = createContext(null);
 
 function App() {

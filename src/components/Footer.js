@@ -4,7 +4,9 @@ export default function Footer() {
   return (
     <footer>
       <div className='child-section py-11 text-center md:py-20'>
-        <h4 className='text-md mt-3 font-semibold mx-auto md:max-w-[380px]'>"Hi folks! You're the reason I'm smiling today, glad I'm you have come to my website :)"</h4>
+        <p className='text-md mt-3 font-semibold mx-auto md:max-w-[380px]'>
+          <q>Hi folks! You're the reason I'm smiling today, glad I'm you have come to my website :)</q>
+        </p>
         <div className='mt-3 text-sm flex justify-center items-center'>
           <span className='mr-1'>
             <IoLocationSharp />
