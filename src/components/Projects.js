@@ -26,10 +26,10 @@ export default function Projects() {
                   alt={`${name}'s screenshoot`}
                   className="mb-4 rounded-lg"
                 />
-                <h3 className="mb-4 mt-6 font-semibold text-primary-light text-2xl">
+                <h3 className="mb-4 mt-6 font-semibold text-primary text-2xl">
                   {name}
                 </h3>
-                <div className="mb-4 text-sm text-primary-light">
+                <div className="mb-4 text-sm text-primary">
                   {description.length >= 95 ? (
                     <AdvReadMoreMore
                       text={description}
@@ -53,7 +53,7 @@ export default function Projects() {
                   <a
                     href={published}
                     target="blank"
-                    className="block mb-4 text-sm text-primary-light underline"
+                    className="block mb-4 text-sm text-primary underline"
                   >
                     Website published
                   </a>
@@ -62,7 +62,7 @@ export default function Projects() {
                   <a
                     href={repository}
                     target="blank"
-                    className="font-semibold text-sm text-white group-hover:text-primary-light"
+                    className="font-semibold text-sm text-white group-hover:text-primary"
                   >
                     Go to repository
                   </a>

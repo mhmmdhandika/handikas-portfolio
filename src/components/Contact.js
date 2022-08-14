@@ -48,7 +48,7 @@ export default function Contact() {
         <h2 className="title-section">{thisSection.name} me</h2>
         <form
           name="submit-to-google-sheet"
-          className="py-6 text-primary-light sm:border-dashed sm:bg-white sm:border-slate-300 sm:border-4 sm:p-10 lg:px-16"
+          className="py-6 text-primary sm:border-dashed sm:bg-white sm:border-slate-300 sm:border-4 sm:p-10 lg:px-16"
           onSubmit={handleSubmit}
           ref={form}
         >
@@ -110,8 +110,8 @@ export default function Contact() {
               type="submit"
               className={`mt-4 py-2 px-4 btn text-white font-semibold ${
                 isLoading
-                  ? "cursor-progress hover:bg-primary-light hover:text-white"
-                  : "hover:text-primary-light"
+                  ? "cursor-progress hover:bg-primary hover:text-white"
+                  : "hover:text-primary"
               }`}
             >
               {isLoading ? (

@@ -17,9 +17,9 @@ export default function Hero() {
   return (
     <header id={thisSection.href} className="initial-section mb-44 md:mt-44">
       <div className="child-section p-6 mx-auto xl:p-0 md:flex md:justify-between md:items-start lg:items-center">
-        <div className="text-primary-light sm:w-10/12 md:w-3/5">
+        <div className="text-primary sm:w-10/12 md:w-3/5">
           <h4>Hello there👋 I am</h4>
-          <h1 className="mt-2 mb-3 text-6xl text-secondary-light font-bold">
+          <h1 className="mt-2 mb-3 text-6xl text-secondary font-bold">
             Muhamad <br />
             Handika S.
           </h1>
