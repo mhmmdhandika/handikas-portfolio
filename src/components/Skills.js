@@ -3,7 +3,6 @@ import { SectionContext } from '../App';
 import skillsData from '../assets/json/skills.json';
 
 export default function Skills() {
-  // FIXME: Refactor this function
   const thisSection = useContext(SectionContext).filter((section, index) => {
     return index === 2;
   })[0];
