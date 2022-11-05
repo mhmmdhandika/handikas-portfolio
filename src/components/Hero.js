@@ -1,13 +1,7 @@
 import { useContext } from 'react';
 import { SectionContext } from '../App';
-import {
-  AiOutlineGithub,
-  AiOutlineInstagram,
-  AiFillLinkedin,
-} from 'react-icons/ai';
-import { FaQuora } from 'react-icons/fa';
 import myImg from '../assets/img/my-vector.jpg';
-import socmedData from '../assets/json/socmed.json';
+import socmedData from '../assets/data/socmed';
 
 export default function Hero() {
   const thisSection = useContext(SectionContext).filter((section, index) => {
@@ -33,18 +27,17 @@ export default function Hero() {
           </p>
           <ul className='flex'>
             {socmedData.map((socmed, index) => {
-              const { name, url } = socmed;
-              const logo = [
-                <AiOutlineGithub key={name} />,
-                <AiFillLinkedin key={name} />,
-                <FaQuora key={name} />,
-                <AiOutlineInstagram key={name} />,
-              ];
+              const { name, url, icon } = socmed;
 
               return (
                 <li key={index}>
-                  <a href={url} target='blank' className='block socmed-icons'>
-                    {logo[index]}
+                  <a
+                    href={url}
+                    role={`${name}'s icon social media`}
+                    target='blank'
+                    className='block socmed-icons'
+                  >
+                    {icon}
                   </a>
                 </li>
               );

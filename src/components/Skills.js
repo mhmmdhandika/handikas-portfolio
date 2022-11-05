@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { SectionContext } from '../App';
-import skillsData from '../assets/json/skills.json';
+import skillsData from '../assets/data/skills.json';
 
 export default function Skills() {
   const thisSection = useContext(SectionContext).filter((section, index) => {
@@ -8,7 +8,11 @@ export default function Skills() {
   })[0];
 
   return (
-    <section id={thisSection.href} className='initial-section'>
+    <section
+      role={thisSection.href}
+      id={thisSection.href}
+      className='initial-section'
+    >
       <div className='child-section'>
         <h2 className='title-section'>{thisSection.name}</h2>
         <ul className='grid gap-4 grid-cols-3 content-center md:gap-5 md:grid-cols-4 xl:grid-cols-5'>

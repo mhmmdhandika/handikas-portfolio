@@ -132,7 +132,7 @@ h1 {
 }
 
 .socmed-icons:hover {
-  @apply border-slate-600 bg-slate-600 text-blue-400;
+  @apply border-slate-600 bg-slate-600 text-white;
 }
 /* End Hero */
 
