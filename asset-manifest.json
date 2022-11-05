@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/handikas-portfolio/static/css/main.d64c05b3.css",
-    "main.js": "/handikas-portfolio/static/js/main.1683e2b8.js",
+    "main.css": "/handikas-portfolio/static/css/main.99d9e080.css",
+    "main.js": "/handikas-portfolio/static/js/main.66ba5871.js",
     "static/js/787.74822702.chunk.js": "/handikas-portfolio/static/js/787.74822702.chunk.js",
     "static/media/my-vector.jpg": "/handikas-portfolio/static/media/my-vector.c5f5f63c09e8c6f3dc84.jpg",
     "index.html": "/handikas-portfolio/index.html",
-    "main.d64c05b3.css.map": "/handikas-portfolio/static/css/main.d64c05b3.css.map",
-    "main.1683e2b8.js.map": "/handikas-portfolio/static/js/main.1683e2b8.js.map",
+    "main.99d9e080.css.map": "/handikas-portfolio/static/css/main.99d9e080.css.map",
+    "main.66ba5871.js.map": "/handikas-portfolio/static/js/main.66ba5871.js.map",
     "787.74822702.chunk.js.map": "/handikas-portfolio/static/js/787.74822702.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d64c05b3.css",
-    "static/js/main.1683e2b8.js"
+    "static/css/main.99d9e080.css",
+    "static/js/main.66ba5871.js"
   ]
 }
