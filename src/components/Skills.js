@@ -19,10 +19,10 @@ export default function Skills() {
           {skillsData.map((skill, index) => {
             return (
               <li
-                className='group relative p-3 border-2 border-slate-300 transition ease-in hover:border-[3px] hover:shadow-lg hover:-translate-y-2 md:p-6'
+                className='group relative flex justify-center items-center p-3 border-2 border-slate-300 transition ease-in hover:border-[3px] hover:shadow-lg hover:-translate-y-2 md:p-6'
                 key={index}
               >
-                <img src={skill.logo} alt={skill.name} />
+                <img src={skill.logo} alt={skill.name} className='w-56' />
                 <div className='opacity-0 transition duration-500 group-hover:block absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-fit backdrop-blur-sm group-hover:opacity-100 group-hover:top-1/2 group-hover:-translate-y-1/2 group-hover:bg-slate-200 group-hover:bg-opacity-70 text-center'>
                   <h4 className='font-semibold text-slate-700 transition duration-1000'>
                     {skill.name}

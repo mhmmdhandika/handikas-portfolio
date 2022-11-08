@@ -23,5 +23,10 @@
     "name": "React Js",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     "description": ""
+  },
+  {
+    "name": "Redux Toolkit",
+    "logo": "https://www.svgrepo.com/show/303557/redux-logo.svg",
+    "description": ""
   }
 ]

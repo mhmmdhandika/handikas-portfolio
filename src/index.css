@@ -128,7 +128,7 @@ h1 {
 
 /* Start Hero */
 .socmed-icons {
-  @apply mt-9 mx-1 p-2 text-2xl text-slate-600 border-4 border-slate-200 rounded-full transition duration-300;
+  @apply p-2 text-2xl text-slate-600 border-4 border-slate-200 rounded-full transition duration-300;
 }
 
 .socmed-icons:hover {

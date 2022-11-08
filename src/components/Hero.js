@@ -11,21 +11,19 @@ export default function Hero() {
   return (
     <header id={thisSection.href} className='initial-section mb-44 md:mt-44'>
       <div className='child-section p-6 mx-auto xl:p-0 md:flex md:justify-between md:items-start lg:items-center'>
-        <div className='text-primary sm:w-10/12 md:w-3/5'>
+        <div className='flex flex-col gap-4 text-primary sm:w-10/12 md:w-3/5'>
           <h4>Hello there 👋 I am</h4>
-          <h1 className='mt-2 mb-3 text-6xl text-secondary font-bold'>
+          <h1 className='text-6xl text-secondary font-bold'>
             Muhamad <br />
             Handika S.
           </h1>
-          <p className='py-4 text-md'>
-            Self-taught developer | Life-long learner
-          </p>
+          <h2 className='text-md'>Self-taught Frontend Developer</h2>
           <p className='md:text-sm'>
             A boy who interested in Frontend Web Development.
             <br /> Currently, I focus in React Js and kinda bit interested in
             UI/UX design.
           </p>
-          <ul className='flex'>
+          <ul className='flex gap-3'>
             {socmedData.map((socmed, index) => {
               const { name, url, icon } = socmed;
 
