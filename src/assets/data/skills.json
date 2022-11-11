@@ -1,5 +1,15 @@
 [
   {
+    "name": "HTML",
+    "logo": "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+    "description": ""
+  },
+  {
+    "name": "CSS",
+    "logo": "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
+    "description": ""
+  },
+  {
     "name": "JavaScript",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
     "description": ""
