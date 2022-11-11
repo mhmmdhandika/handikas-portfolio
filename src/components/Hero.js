@@ -20,8 +20,7 @@ export default function Hero() {
           <h2 className='text-md'>Self-taught Frontend Developer</h2>
           <p className='md:text-sm'>
             A boy who interested in Frontend Web Development.
-            <br /> Currently, I focus in React Js and kinda bit interested in
-            UI/UX design.
+            <br /> Currently, I learn about TypeScript and MERN Stack.
           </p>
           <ul className='flex gap-3'>
             {socmedData.map((socmed, index) => {
