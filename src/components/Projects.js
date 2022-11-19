@@ -62,7 +62,7 @@ export default function Projects() {
                     <div className='flex justify-end place-content-end gap-x-2'>
                       {/* link to the website */}
                       {published !== '' && (
-                        <button className='btn text-white bg-primary block w-fit font-bold border-primary hover:text-primary hover:bg-transparent'>
+                        <button className='btn text-white bg-primary block w-fit font-bold '>
                           <a
                             href={published}
                             target='blank'
@@ -73,7 +73,7 @@ export default function Projects() {
                         </button>
                       )}
                       {/* link to the repository */}
-                      <button className='btn bg-primary group hover:bg-transparent sm:w-fit border-primary'>
+                      <button className='btn group sm:w-fit'>
                         <a
                           href={repository}
                           target='blank'
