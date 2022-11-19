@@ -1,42 +1,38 @@
 [
   {
     "name": "HTML",
-    "logo": "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
-    "description": ""
+    "logo": "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
   },
   {
     "name": "CSS",
-    "logo": "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg",
-    "description": ""
+    "logo": "https://www.vectorlogo.zone/logos/w3_css/w3_css-icon.svg"
   },
   {
     "name": "JavaScript",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
-    "description": ""
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
   },
   {
     "name": "Git",
-    "logo": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
-    "description": ""
+    "logo": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
   },
   {
     "name": "Bootstrap 5",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
-    "description": ""
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
   },
   {
     "name": "Tailwind CSS",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
-    "description": ""
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
   },
   {
     "name": "React Js",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-    "description": ""
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
   },
   {
     "name": "Redux Toolkit",
-    "logo": "https://www.svgrepo.com/show/303557/redux-logo.svg",
-    "description": ""
+    "logo": "https://www.svgrepo.com/show/303557/redux-logo.svg"
+  },
+  {
+    "name": "TypeScript",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
   }
 ]

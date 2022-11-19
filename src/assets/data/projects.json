@@ -33,5 +33,12 @@
     "description": "Link shortener from Frontend Mentor challenge with used shrtcode API to shorting a link.",
     "repository": "https://github.com/mhmmdhandika/shorter-link",
     "published": "https://mhmmdhandika.github.io/shorter-link/"
+  },
+  {
+    "name": "Space Tourism",
+    "image": "https://drive.google.com/uc?export=view&id=1bsMndhW0h4hYlSUDYmi-xBR8bCBJu2PV",
+    "description": "Link shortener from Frontend Mentor challenge with used shrtcode API to shorting a link.",
+    "repository": "https://github.com/mhmmdhandika/space-tourism",
+    "published": "https://mhmmdhandika.github.io/space-tourism/"
   }
 ]
