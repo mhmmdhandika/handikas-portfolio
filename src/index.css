@@ -62,7 +62,7 @@ h1 {
   }
 
   .btn {
-    @apply px-3 py-1 bg-primary border-4 border-primary rounded-xl transition duration-300 hover:bg-transparent;
+    @apply px-3 py-1 border-4 rounded-xl transition duration-300;
   }
 }
 

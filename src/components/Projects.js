@@ -59,31 +59,30 @@ export default function Projects() {
                         description
                       )}
                     </div>
-                    {/* link to the website */}
-                    {published === '' ? (
-                      <button
-                        className='block w-fit text-sm text-slate-500 underline cursor-not-allowed'
-                        disabled
-                      >
-                        Not yet published
-                      </button>
-                    ) : (
-                      <button className='block w-fit text-sm text-primary underline'>
-                        <a href={published} target='blank'>
-                          Website published
+                    <div className='flex justify-end place-content-end gap-x-2'>
+                      {/* link to the website */}
+                      {published !== '' && (
+                        <button className='btn text-white bg-primary block w-fit font-bold border-primary hover:text-primary hover:bg-transparent'>
+                          <a
+                            href={published}
+                            target='blank'
+                            className='text-sm'
+                          >
+                            Published
+                          </a>
+                        </button>
+                      )}
+                      {/* link to the repository */}
+                      <button className='btn bg-primary group hover:bg-transparent sm:w-fit border-primary'>
+                        <a
+                          href={repository}
+                          target='blank'
+                          className='font-semibold text-sm text-white group-hover:text-primary'
+                        >
+                          Repository
                         </a>
                       </button>
-                    )}
-                    {/* link to the repository */}
-                    <button className='btn group sm:w-fit'>
-                      <a
-                        href={repository}
-                        target='blank'
-                        className='font-semibold text-sm text-white group-hover:text-primary'
-                      >
-                        Go to repository
-                      </a>
-                    </button>
+                    </div>
                   </div>
                 </div>
               );
