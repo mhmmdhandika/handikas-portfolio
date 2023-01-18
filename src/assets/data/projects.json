@@ -40,5 +40,12 @@
     "description": "Multipage challenge project from Frontend Mentor in collaboration with Scrimba and Kevin Powell.",
     "repository": "https://github.com/mhmmdhandika/space-tourism",
     "published": "https://mhmmdhandika.github.io/space-tourism/"
+  },
+  {
+    "name": "Imagerh | Photography portfolio",
+    "image": "https://drive.google.com/uc?export=view&id=1ukp5R55WIaj7KjFmakCwnt7NQYAL3aFV",
+    "description": "My friend's photography portfolio. It has home page act as a landing page, albums page as his his albums portfolio and booking page to book a date to photoshoot.",
+    "repository": "https://github.com/mhmmdhandika/imagerh",
+    "published": "https://imagerh.netlify.app/"
   }
 ]
