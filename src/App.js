@@ -1,11 +1,11 @@
 import { createContext } from 'react';
 import sectionList from './assets/data/section-list.json';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Navbar from './partials/Navbar';
+import Hero from './partials/Hero';
+import Projects from './partials/Projects';
+import Skills from './partials/Skills';
+import Contact from './partials/Contact';
+import Footer from './partials/Footer';
 
 const SectionContext = createContext(null);
 
