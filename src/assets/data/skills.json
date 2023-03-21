@@ -20,6 +20,10 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
   },
   {
+    "name": "Bootstrap",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+  },
+  {
     "name": "React Js",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
   },
@@ -30,5 +34,21 @@
   {
     "name": "TypeScript",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+  },
+  {
+    "name": "Next.js",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
+  },
+  {
+    "name": "Node.js",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+  },
+  {
+    "name": "Express.js",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+  },
+  {
+    "name": "MongoDB",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
   }
 ]
