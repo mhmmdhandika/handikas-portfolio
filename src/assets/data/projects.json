@@ -47,5 +47,12 @@
     "description": "My friend's photography portfolio. It has home page act as a landing page, albums page as his his albums portfolio and booking page to book a date to photoshoot.",
     "repository": "https://github.com/mhmmdhandika/imagerh",
     "published": "https://imagerh.netlify.app/"
+  },
+  {
+    "name": "MERN Blog App",
+    "image": "https://drive.google.com/uc?export=view&id=1rARW9JOxMMqZcRBxl7XppMXNf6iqQoJx",
+    "description": "Fullstack Blog App with MERN stack (Mongo DB, Express Js, React Js, Node Js). This is a CRUD project, you can do authentication, authorization, add a new blog post, edit the blog and delete the blog.",
+    "repository": "https://github.com/mhmmdhandika/mern-blog-app",
+    "published": ""
   }
 ]
