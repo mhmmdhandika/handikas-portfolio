@@ -1,7 +1,6 @@
 import { useContext } from 'react';
 import { SectionContext } from '../App';
 import projectsData from '../assets/data/projects.json';
-import { AdvReadMoreMore } from 'read-more-more';
 
 export default function Projects() {
   const thisSection = useContext(SectionContext).filter((section, index) => {
@@ -47,17 +46,7 @@ export default function Projects() {
                     </h3>
                     {/* caption */}
                     <div className='text-sm text-primary'>
-                      {description.length >= 95 ? (
-                        <AdvReadMoreMore
-                          text={description}
-                          linesToShow={2}
-                          checkFor={50}
-                          color='#1e293b'
-                          btnStyles={{ color: '#6b7280' }}
-                        />
-                      ) : (
-                        description
-                      )}
+                      {description.length >= 95 ? <h1>yes</h1> : description}
                     </div>
                     <div className='flex justify-end place-content-end gap-x-2'>
                       {/* link to the website */}
