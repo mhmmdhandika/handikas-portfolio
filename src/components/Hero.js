@@ -17,10 +17,11 @@ export default function Hero() {
             Muhamad <br />
             Handika S.
           </h1>
-          <h2 className='text-md'>Self-taught Frontend Developer</h2>
-          <p className='md:text-sm'>
-            A boy who interested in Frontend Web Development.
-            <br /> Currently, I learn about TypeScript and MERN Stack.
+          <h2 className='text-md'>Junior Frontend Web Developer</h2>
+          <p className='text-sm max-w-[30rem] md:max-w-[25rem]'>
+            Specializes in React Js, Tailwind CSS, responsive design, HTML, CSS,
+            and JavaScript. <br /> Having basic skills in backend side with Node
+            Js, Express Js framework and MongoDB.
           </p>
           <ul className='flex gap-3'>
             {socmedData.map((socmed, index) => {
