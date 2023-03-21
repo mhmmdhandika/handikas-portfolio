@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import { SectionContext } from '../App';
 import projectsData from '../assets/data/projects.json';
+import ReadMore from '../components/ReadMore';
 
 export default function Projects() {
   const thisSection = useContext(SectionContext).filter((section, index) => {
@@ -46,7 +47,11 @@ export default function Projects() {
                     </h3>
                     {/* caption */}
                     <div className='text-sm text-primary'>
-                      {description.length >= 95 ? <h1>yes</h1> : description}
+                      {description.length >= 95 ? (
+                        <ReadMore>{description}</ReadMore>
+                      ) : (
+                        description
+                      )}
                     </div>
                     <div className='flex justify-end place-content-end gap-x-2'>
                       {/* link to the website */}
