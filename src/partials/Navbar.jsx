@@ -26,7 +26,10 @@ export default function Navbar() {
   return (
     <nav className='fixed top-0 w-full transition duration-500' ref={navBar}>
       <div className='child-section py-6 relative flex justify-between items-center max-w-default mx-auto'>
-        <h1 className='text-xl text-primary font-semibold'>mhmdhandika</h1>
+        <div className='flex gap-1 items-center'>
+          <img src='/assets/img/icons/my-logo.png' alt='My logo' width={25} />
+          <h1 className='text-xl text-primary font-semibold'>mhmdhandika</h1>
+        </div>
         <button
           id='hamburger'
           className='block md:hidden'
