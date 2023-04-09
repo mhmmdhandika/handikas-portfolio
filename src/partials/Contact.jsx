@@ -1,6 +1,5 @@
 import { useState, useContext, useRef } from 'react';
 import { SectionContext } from '../App';
-import Loading from '../components/Loading';
 import swal from 'sweetalert';
 
 export default function Contact() {
@@ -114,13 +113,18 @@ export default function Contact() {
               type='submit'
               className={`mt-4 py-2 px-4 btn text-white font-semibold ${
                 isLoading
-                  ? 'cursor-progress hover:bg-primary hover:text-white'
+                  ? 'cursor-progress bg-transparent hover:text-primary'
                   : 'hover:text-primary'
               }`}
             >
               {isLoading ? (
-                <span className='flex justify-center items-center'>
-                  <Loading /> Loading...
+                <span className='flex gap-1 justify-center items-center'>
+                  <img
+                    src='/assets/img/loading-spinner.svg'
+                    alt='loading'
+                    width={25}
+                  />{' '}
+                  Loading...
                 </span>
               ) : (
                 'Submit'
