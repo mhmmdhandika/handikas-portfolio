@@ -71,7 +71,7 @@ export default function Hero() {
         </div>
         <div className='hidden group md:block md:w-2/5'>
           <img
-            src='/assets/img/my-vector.jpg'
+            src='/assets/img/icons/my-vector.jpg'
             alt='my image'
             className='rounded-full transition duration-500 group-hover:animate-bounce'
           />

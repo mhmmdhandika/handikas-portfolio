@@ -1,56 +1,56 @@
 [
   {
     "name": "Calculator",
-    "image": "https://drive.google.com/uc?export=view&id=1XRnu6s6OsF-9kFIZ8k963fNF-NF75U9o",
+    "image": "/assets/img/projects/ss-calculator.png",
     "description": "This calculator can do like a normally calculator. This calculator I created for understanding about basic of JavaScript.",
     "repository": "https://github.com/mhmmdhandika/calculator-hndk",
     "published": "https://mhmmdhandika.github.io/calculator-hndk/"
   },
   {
     "name": "Bookshelf",
-    "image": "https://drive.google.com/uc?export=view&id=1eI2CsKQYqwbEuj9IlCe_A8RhU2zoa82r",
+    "image": "/assets/img/projects/ss-bookshelf.png",
     "description": "You can create a new book to shelf, move to unread or already read and remove it. This project is piece of Dicoding submission.",
     "repository": "https://github.com/mhmmdhandika/bookshelf-hndk",
     "published": "https://mhmmdhandika.github.io/bookshelf-hndk/"
   },
   {
     "name": "Simbox Search Movie",
-    "image": "https://drive.google.com/uc?export=view&id=16WmTu0l_EPHH6DF4nufw-To0AyrbwzUY",
+    "image": "/assets/img/projects/ss-simbox.png",
     "description": "Simbox is application that can search anything of movies that you like. This project used OMDB API and based on JavaScript Lanjutan by Web Programming UNPAS, but I decided to improve some features and UI.",
     "repository": "https://github.com/mhmmdhandika/simple-box-movies",
     "published": ""
   },
   {
     "name": "Quiz",
-    "image": "https://drive.google.com/uc?export=view&id=1BB19-4V_k5pr4YmgidhxD8Lhk30TBa7y",
+    "image": "/assets/img/projects/ss-quiz.png",
     "description": "This Quiz is contain the Trivia that I got from The Trivia API. Btw, This is My first React Js Project hehehe.",
     "repository": "https://github.com/mhmmdhandika/quiz-app",
     "published": "https://mhmmdhandika.github.io/quiz-app/"
   },
   {
     "name": "Shortly - Shorter Link",
-    "image": "https://drive.google.com/uc?export=view&id=1m6LLxhT_V_WIygo9yXIEr8RqQXgdV-Lm",
+    "image": "/assets/img/projects/ss-shorter-link.jpg",
     "description": "Link shortener from Frontend Mentor challenge with used shrtcode API to shorting a link.",
     "repository": "https://github.com/mhmmdhandika/shorter-link",
     "published": "https://mhmmdhandika.github.io/shorter-link/"
   },
   {
     "name": "Space Tourism",
-    "image": "https://drive.google.com/uc?export=view&id=1bsMndhW0h4hYlSUDYmi-xBR8bCBJu2PV",
+    "image": "/assets/img/projects/ss-space-tourism.jpg",
     "description": "Multipage challenge project from Frontend Mentor in collaboration with Scrimba and Kevin Powell.",
     "repository": "https://github.com/mhmmdhandika/space-tourism",
     "published": "https://mhmmdhandika.github.io/space-tourism/"
   },
   {
     "name": "Imagerh | Photography portfolio",
-    "image": "https://drive.google.com/uc?export=view&id=1ukp5R55WIaj7KjFmakCwnt7NQYAL3aFV",
+    "image": "/assets/img/projects/ss-imagerh.jpg",
     "description": "My friend's photography portfolio. It has home page act as a landing page, albums page as his his albums portfolio and booking page to book a date to photoshoot.",
     "repository": "https://github.com/mhmmdhandika/imagerh",
-    "published": "https://imagerh.netlify.app/"
+    "published": "https://imagerh.vercel.app"
   },
   {
     "name": "MERN Blog App",
-    "image": "https://drive.google.com/uc?export=view&id=1rARW9JOxMMqZcRBxl7XppMXNf6iqQoJx",
+    "image": "/assets/img/projects/ss-mern-blog.jpg",
     "description": "Fullstack Blog App with MERN stack (Mongo DB, Express Js, React Js, Node Js). This is a CRUD project, you can do authentication, authorization, add a new blog post, edit the blog and delete the blog.",
     "repository": "https://github.com/mhmmdhandika/mern-blog-app",
     "published": ""
