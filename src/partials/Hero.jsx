@@ -25,7 +25,7 @@ export default function Hero() {
           </p>
           <ul className='flex gap-3'>
             {socmedData.map((socmed, index) => {
-              const { name, url, icon } = socmed;
+              const { name, url } = socmed;
 
               return (
                 <li key={index}>
@@ -35,7 +35,7 @@ export default function Hero() {
                     target='blank'
                     className='block socmed-icons'
                   >
-                    {icon}
+                    {name}
                   </a>
                 </li>
               );

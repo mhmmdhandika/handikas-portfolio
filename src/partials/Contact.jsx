@@ -9,7 +9,7 @@ export default function Contact() {
   })[0];
 
   // eslint-disable-next-line no-undef
-  const scriptURL = process.env.REACT_APP_CONTACT_GOOGLE_SCRIPT;
+  const scriptURL = import.meta.env.VITE_CONTACT_GOOGLE_SCRIPT;
   const form = useRef(null);
   const [isLoading, setIsLoading] = useState(false);
   const [formState, setFormState] = useState(false);
