@@ -1,5 +1,5 @@
 import { createContext } from 'react';
-import sectionList from './assets/data/section-list.json';
+import sectionList from './data/section-list.json';
 import Navbar from './partials/Navbar';
 import Hero from './partials/Hero';
 import Projects from './partials/Projects';

@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { SectionContext } from '../App';
-import skillsData from '../assets/data/skills.json';
+import skillsData from '../data/skills.json';
 
 export default function Skills() {
   const thisSection = useContext(SectionContext).filter((section, index) => {

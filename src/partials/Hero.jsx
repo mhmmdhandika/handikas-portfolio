@@ -1,12 +1,39 @@
 import { useContext } from 'react';
 import { SectionContext } from '../App';
-import myImg from '../assets/img/my-vector.jpg';
-import socmedData from '../assets/data/socmed';
+import {
+  AiOutlineGithub as Github,
+  AiFillLinkedin as Linkedin,
+} from 'react-icons/ai';
+import { FaQuora as Quora } from 'react-icons/fa';
+import { SiFrontendmentor as FrontendMentor } from 'react-icons/si';
 
 export default function Hero() {
   const thisSection = useContext(SectionContext).filter((section, index) => {
     return index === 0;
   })[0];
+
+  const socmed = [
+    {
+      name: 'Github',
+      url: 'https://github.com/mhmmdhandika',
+      icon: <Github />,
+    },
+    {
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/muhamad-handika-sopian-56b24722a/',
+      icon: <Linkedin />,
+    },
+    {
+      name: 'Quora',
+      url: 'https://id.quora.com/profile/Muhamad-Handika',
+      icon: <Quora />,
+    },
+    {
+      name: 'Frontend Mentor',
+      url: 'https://www.frontendmentor.io/profile/mhmmdhandika',
+      icon: <FrontendMentor />,
+    },
+  ];
 
   return (
     <header id={thisSection.href} className='initial-section mb-44 md:mt-44'>
@@ -24,8 +51,8 @@ export default function Hero() {
             Js, Express Js framework and MongoDB.
           </p>
           <ul className='flex gap-3'>
-            {socmedData.map((socmed, index) => {
-              const { name, url } = socmed;
+            {socmed.map((socmed, index) => {
+              const { name, url, icon } = socmed;
 
               return (
                 <li key={index}>
@@ -35,7 +62,7 @@ export default function Hero() {
                     target='blank'
                     className='block socmed-icons'
                   >
-                    {name}
+                    {icon}
                   </a>
                 </li>
               );
@@ -44,8 +71,8 @@ export default function Hero() {
         </div>
         <div className='hidden group md:block md:w-2/5'>
           <img
-            src={myImg}
-            alt='anu'
+            src='/assets/img/my-vector.jpg'
+            alt='my image'
             className='rounded-full transition duration-500 group-hover:animate-bounce'
           />
         </div>

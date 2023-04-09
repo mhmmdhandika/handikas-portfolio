@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { SectionContext } from '../App';
-import projectsData from '../assets/data/projects.json';
+import projectsData from '../data/projects.json';
 import ReadMore from '../components/ReadMore';
 
 export default function Projects() {
