@@ -15,15 +15,15 @@ export default function Skills() {
     >
       <div className='child-section'>
         <h2 className='title-section'>{thisSection.name}</h2>
-        <ul className='grid gap-4 grid-cols-3 content-center md:gap-5 md:grid-cols-4 xl:grid-cols-5'>
+        <ul className='grid grid-cols-3 content-center gap-4 md:grid-cols-4 md:gap-5 xl:grid-cols-5'>
           {skillsData.map((skill, index) => {
             return (
               <li
-                className='group min-h-[10rem] relative flex justify-center items-center p-3 border-2 border-slate-300 transition ease-in hover:shadow-lg hover:-translate-y-2 md:p-6'
+                className='group relative flex min-h-[10rem] items-center justify-center border-2 border-slate-300 p-3 transition ease-in hover:-translate-y-2 hover:shadow-lg md:p-6'
                 key={index}
               >
                 <img src={skill.logo} alt={skill.name} className='w-24' />
-                <div className='opacity-0 transition duration-500 group-hover:block absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-fit backdrop-blur-sm group-hover:opacity-100 group-hover:top-1/2 group-hover:-translate-y-1/2 group-hover:bg-slate-200 group-hover:bg-opacity-70 text-center'>
+                <div className='absolute bottom-0 w-full bg-slate-400 text-center opacity-0 backdrop-blur-sm transition-all duration-300 group-hover:bottom-[45%] group-hover:bg-slate-200 group-hover:bg-opacity-70 group-hover:opacity-100'>
                   <h4 className='font-semibold text-slate-700 transition duration-1000'>
                     {skill.name}
                   </h4>
