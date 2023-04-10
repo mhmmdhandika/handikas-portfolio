@@ -60,7 +60,7 @@ export default function Hero() {
                     href={url}
                     role={`${name}'s icon social media`}
                     target='blank'
-                    className='flex items-center gap-1 rounded-full border-4 border-slate-200 p-2 text-2xl text-slate-600 transition duration-300 hover:border-slate-600 hover:bg-slate-600 hover:text-white'
+                    className='flex items-center gap-1 rounded-full border-4 border-slate-200 p-2 text-2xl text-slate-600 transition duration-300 hover:border-slate-600 hover:bg-slate-600 hover:text-white sm:px-3'
                   >
                     <span>{icon}</span>
                     <span className='hidden text-sm sm:inline'>{name}</span>
