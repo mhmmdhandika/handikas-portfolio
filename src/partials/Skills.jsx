@@ -23,7 +23,7 @@ export default function Skills() {
                 key={index}
               >
                 <img src={skill.logo} alt={skill.name} className='w-24' />
-                <div className='absolute bottom-0 w-full bg-slate-400 text-center opacity-0 backdrop-blur-sm transition-all duration-300 group-hover:bottom-[45%] group-hover:bg-slate-200 group-hover:bg-opacity-70 group-hover:opacity-100'>
+                <div className='absolute bottom-0 w-full bg-slate-400 text-center opacity-0 backdrop-blur-sm transition-all duration-300 ease-in group-hover:bottom-[45%] group-hover:bg-slate-200 group-hover:bg-opacity-70 group-hover:opacity-100'>
                   <h4 className='font-semibold text-slate-700 transition duration-1000'>
                     {skill.name}
                   </h4>
