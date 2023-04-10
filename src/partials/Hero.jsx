@@ -37,15 +37,15 @@ export default function Hero() {
 
   return (
     <header id={thisSection.href} className='initial-section mb-44 md:mt-44'>
-      <div className='child-section p-6 mx-auto xl:p-0 md:flex md:justify-between md:items-start lg:items-center'>
+      <div className='child-section mx-auto p-6 md:flex md:items-start md:justify-between lg:items-center xl:p-0'>
         <div className='flex flex-col gap-4 text-primary sm:w-10/12 md:w-3/5'>
           <h4>Hello there 👋 I am</h4>
-          <h1 className='text-6xl text-secondary font-bold'>
+          <h1 className='text-6xl font-bold text-secondary'>
             Muhamad <br />
             Handika S.
           </h1>
           <h2 className='text-md'>Junior Frontend Web Developer</h2>
-          <p className='text-sm max-w-[30rem] md:max-w-[25rem]'>
+          <p className='max-w-[30rem] text-sm md:max-w-[25rem]'>
             Specializes in React Js, Tailwind CSS, responsive design, HTML, CSS,
             and JavaScript. <br /> Having basic skills in backend side with Node
             Js, Express Js framework and MongoDB.
@@ -60,16 +60,17 @@ export default function Hero() {
                     href={url}
                     role={`${name}'s icon social media`}
                     target='blank'
-                    className='block socmed-icons'
+                    className='flex items-center gap-1 rounded-full border-4 border-slate-200 p-2 text-2xl text-slate-600 transition duration-300 hover:border-slate-600 hover:bg-slate-600 hover:text-white'
                   >
-                    {icon}
+                    <span>{icon}</span>
+                    <span className='hidden text-sm sm:inline'>{name}</span>
                   </a>
                 </li>
               );
             })}
           </ul>
         </div>
-        <div className='hidden group md:block md:w-2/5'>
+        <div className='group hidden md:block md:w-2/5'>
           <img
             src='/assets/img/icons/my-vector.jpg'
             alt='my image'
