@@ -70,12 +70,13 @@ export default function Hero() {
             })}
           </ul>
         </div>
-        <div className='group hidden md:block md:w-2/5'>
-          <img
-            src='/assets/img/icons/my-vector.jpg'
-            alt='my image'
-            className='rounded-full transition duration-500 group-hover:animate-bounce'
-          />
+        <div className='group relative hidden md:block md:w-2/5'>
+          <div className='img-profile relative overflow-hidden'>
+            <img
+              src='/assets/img/other/my-photo.png'
+              alt="Muhamad Handika Sopian's photo"
+            />
+          </div>
         </div>
       </div>
     </header>
