@@ -11,7 +11,7 @@ function ReadMore({ children }) {
 
   return (
     <p className='inline w-full'>
-      {isReadMore ? text.slice(0, 100) : text}
+      {isReadMore ? text.slice(0, 80) : text}
       <span
         onClick={toggleReadMore}
         className='cursor-pointer pl-1 hover:underline'

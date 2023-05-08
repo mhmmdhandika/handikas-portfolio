@@ -168,3 +168,16 @@ h1 {
     border-radius: 64% 36% 27% 73% / 55% 58% 42% 45%;
   }
 }
+
+.swiper-pagination {
+  position: static !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #334155 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #1e293b !important;
+}

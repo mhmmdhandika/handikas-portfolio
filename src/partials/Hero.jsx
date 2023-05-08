@@ -75,6 +75,7 @@ export default function Hero() {
             <img
               src='/assets/img/other/my-photo.png'
               alt="Muhamad Handika Sopian's photo"
+              draggable={false}
             />
           </div>
         </div>
