@@ -141,8 +141,6 @@ h1 {
 /*End Swal*/
 
 .img-profile {
-  width: 400px;
-  height: 400px;
   background-color: #334155;
   animation: animate-blob 10s linear infinite;
 }

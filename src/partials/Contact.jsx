@@ -45,7 +45,7 @@ export default function Contact() {
     <section
       role={thisSection.href}
       id={thisSection.href}
-      className='initial-section'
+      className='initial-section mb-10'
     >
       <div className='child-section'>
         <h2 className='title-section'>{thisSection.name} me</h2>

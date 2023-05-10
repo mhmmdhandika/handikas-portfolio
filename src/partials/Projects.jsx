@@ -23,7 +23,7 @@ export default function Projects() {
     <section
       role={thisSection.href}
       id={thisSection.href}
-      className='initial-section mt-60 mb-16'
+      className='initial-section my-16'
     >
       <div className='child-section'>
         <h2 className='title-section'>{`My ${thisSection.name}`}</h2>

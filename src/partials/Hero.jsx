@@ -36,16 +36,16 @@ export default function Hero() {
   ];
 
   return (
-    <header id={thisSection.href} className='initial-section mb-44 md:mt-44'>
-      <div className='child-section mx-auto flex flex-col p-6 md:flex-row md:items-start md:justify-between lg:items-center xl:p-0'>
-        <div className='flex flex-col gap-4 text-primary sm:w-10/12 md:w-3/5'>
+    <header id={thisSection.href} className='initial-section md:mt-28 lg:mt-44'>
+      <div className='child-section mx-auto flex flex-col items-center p-6 md:justify-between lg:flex-row lg:items-center xl:p-0'>
+        <div className='flex flex-col items-center gap-4 text-primary sm:w-full md:order-2 lg:order-1 lg:w-3/5 lg:items-start'>
           <h4>Hello there 👋 I am</h4>
           <h1 className='text-6xl font-bold text-secondary'>
             Muhamad <br />
             Handika S.
           </h1>
           <h2 className='text-md'>Junior Frontend Web Developer</h2>
-          <p className='max-w-[30rem] text-sm md:max-w-[25rem]'>
+          <p className='max-w-[30rem] text-center text-sm md:max-w-[25rem] lg:text-start'>
             Specializes in React Js, Tailwind CSS, responsive design, HTML, CSS,
             and JavaScript. <br /> Having basic skills in backend side with Node
             Js, Express Js framework and MongoDB.
@@ -70,8 +70,8 @@ export default function Hero() {
             })}
           </ul>
         </div>
-        <div className='group relative mt-10 md:mt-0 md:block md:w-2/5'>
-          <div className='img-profile relative overflow-hidden'>
+        <div className='lg:order-1lg:order-2 group relative mt-10 md:order-1 md:mt-0 md:mb-10 md:block md:w-2/5'>
+          <div className='img-profile relative w-[20rem] overflow-hidden lg:w-[23rem]'>
             <img
               src='/assets/img/other/my-photo.png'
               alt="Muhamad Handika Sopian's photo"
