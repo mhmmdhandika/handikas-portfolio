@@ -45,13 +45,25 @@ export default function Projects() {
           }}
           pagination={{ clickable: true }}
           initialSlide={1}
+          breakpoints={{
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            // when window width is >= 640px
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+          }}
         >
           {reversedProjectsData.map((project, index) => {
             const { name, image, description, repository, published } = project;
 
             return (
               <SwiperSlide
-                className='max-h-[500px] overflow-hidden rounded-2xl border-4 border-slate-400 bg-slate-100 transition duration-500 hover:shadow-xl'
+                className='max-h-[500px] w-full overflow-hidden rounded-2xl border-4 border-slate-400 bg-slate-100 transition duration-500 hover:shadow-xl'
                 key={index}
               >
                 {/* image */}
