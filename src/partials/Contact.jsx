@@ -51,7 +51,7 @@ export default function Contact() {
         <h2 className='title-section'>{thisSection.name} me</h2>
         <form
           name='submit-to-google-sheet'
-          className='py-6 text-primary sm:border-dashed sm:bg-white sm:border-slate-300 sm:border-4 sm:p-10 lg:px-16'
+          className='py-6 text-primary sm:border-4 sm:border-dashed sm:border-slate-300 sm:bg-white sm:p-10 lg:px-16'
           onSubmit={handleSubmit}
           ref={form}
         >
@@ -76,10 +76,10 @@ export default function Contact() {
               type='email'
               name='email'
               id='email'
-              className={`block peer ${
+              className={`peer block ${
                 formState === false
                   ? ''
-                  : 'required:invalid:border-pink-400 invalid:mb-1'
+                  : 'invalid:mb-1 required:invalid:border-pink-400'
               }`}
               onChange={() => setFormState(true)}
               required
@@ -88,7 +88,7 @@ export default function Contact() {
               className={`hidden ${
                 formState === false
                   ? ''
-                  : 'peer-invalid:block text-pink-600 text-sm mb-2'
+                  : 'mb-2 text-sm text-pink-600 peer-invalid:block'
               }`}
             >
               Please provide a valid email address.
@@ -111,14 +111,14 @@ export default function Contact() {
           <div className='flex justify-end'>
             <button
               type='submit'
-              className={`mt-4 py-2 px-4 btn text-white font-semibold ${
+              className={`btn mt-4 py-2 px-4 font-semibold text-white ${
                 isLoading
                   ? 'cursor-progress bg-transparent hover:text-primary'
                   : 'hover:text-primary'
               }`}
             >
               {isLoading ? (
-                <span className='flex gap-1 justify-center items-center'>
+                <span className='flex items-center justify-center gap-1'>
                   <img
                     src='/assets/img/loading-spinner.svg'
                     alt='loading'
